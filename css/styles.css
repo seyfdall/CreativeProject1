@@ -52,7 +52,7 @@ img {
 .selectionIconHolder {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     margin: 8px;
@@ -103,5 +103,14 @@ img {
 
     .spacer {
         height: 100px;
+    }
+
+    .selectionIconHolder {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 8px;
     }
 }
