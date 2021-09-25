@@ -82,9 +82,18 @@ img {
     margin-bottom: 6px;
 }
 
+.video {
+    padding: 6px;
+    background-color: white;
+}
+
 
 @media only screen and (min-width: 961px) {
 
+    .video {
+        padding: 12px;
+        background-color: white;
+    }
 
     .spacer {
         height: 100px;
