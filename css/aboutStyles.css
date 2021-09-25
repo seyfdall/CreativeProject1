@@ -1,0 +1,31 @@
+.parallax {
+    /* Image used */
+    background-image: url("https://live.staticflickr.com/7491/16296571715_b3ebde1e38_b.jpg");
+
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portrait {
+    width: 100%;
+}
+
+.name {
+    font-family: 'Brush Script MT', cursive !important;
+    font-size: 30px;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.jumbotron {
+    margin-bottom: 0!important;
+}

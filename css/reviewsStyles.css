@@ -1,0 +1,23 @@
+.parallax {
+    /* Image used */
+    background-image: url("../images/screenshots/grassy-mountains.jpg");
+
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    margin-bottom: 0!important;
+}
+
+.review-name {
+    font-family: 'Brush Script MT', cursive !important;
+    font-size: 30px;
+    text-align: center;
+}
