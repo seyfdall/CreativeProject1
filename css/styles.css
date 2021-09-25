@@ -93,6 +93,14 @@ img {
     margin-left: 5px;
 }
 
+.jumbotron {
+    margin-bottom: 0!important;
+}
+
+.center-text {
+    text-align: center;
+}
+
 @media only screen and (min-width: 961px) {
     .carousel-image {
         height: 600px;
