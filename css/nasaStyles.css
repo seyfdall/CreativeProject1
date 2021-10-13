@@ -1,0 +1,17 @@
+.parallax {
+    /* The image used */
+    background-image: url("https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000118/GSFC_20171208_Archive_e000118~orig.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spacer {
+    opacity: 0.5!important;
+}
