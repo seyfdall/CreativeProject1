@@ -52,9 +52,26 @@
         <div class="parallax">
             <div class="spacer"></div>
             
+            <div class="jumbotron jumbotron-flex">
+              <h1 class="header-text center-text">Search For A Space Picture</h1>
+              <form>
+                <label><strong>Enter a U.S. city</strong></label>
+                <input class="border-2 border-solid border-black" id="nasaPicInput" type="text"></input>
+                <input class="border-2 border-solid border-black pl-1 pr-1" id="nasaPicInput" type="submit" value="Submit"></input>
+              </form>
+            </div>
 
-        <!-- API Key for NASA k9DFFqrvDIc8rhoXOzrfCvPH3lReJ5qZHs63elro -->
-        <!-- Example: https://api.nasa.gov/planetary/apod?api_key=k9DFFqrvDIc8rhoXOzrfCvPH3lReJ5qZHs63elro -->
+            <div class="spacer"></div>
+
+            <div class="card portrait" style="width: 100%; padding: 6px; background-color: white;">
+              <img class="card-img-top" id="spacePic" src="https://images.freeimages.com/images/large-previews/251/on-the-boat-1433604.jpg">
+              <div class="card-body">
+                <p class="card-text name" id="spacePicName">Space Picture Name Here</p>
+              </div>
+            </div>
+
+            <!-- API Key for NASA k9DFFqrvDIc8rhoXOzrfCvPH3lReJ5qZHs63elro -->
+            <!-- Example: https://api.nasa.gov/planetary/apod?api_key=k9DFFqrvDIc8rhoXOzrfCvPH3lReJ5qZHs63elro -->
 
             <div class="spacer"></div>
 
@@ -91,6 +108,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+        <script src="../JS/nasa-script.js"></script>
     </body>
 </html>

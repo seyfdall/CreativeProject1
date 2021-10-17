@@ -15,3 +15,23 @@
 .spacer {
     opacity: 0.5!important;
 }
+
+.header {
+    height: 70px;
+    width: 100%;
+    align-content: center;
+    background-color: whitesmoke;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header-text {
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.name {
+    font-family: 'Brush Script MT', cursive !important;
+    font-size: 30px;
+    text-align: center;
+}
